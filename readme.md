@@ -2,8 +2,11 @@
 
 jQuery plugin making CoffeeScript integration even sweeter.
 
-The name is inspired by the fat arrow (=>) syntax in CoffeeScript.
+```coffeescript
+$("div").$click -> @hide()
+```
 
+The name is inspired by the fat arrow (=>) syntax in CoffeeScript.
 
 ## Motivation ##
 
