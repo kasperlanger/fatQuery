@@ -47,13 +47,15 @@ $("#foo").$toggle (bg "blue"), (bg "white"), (bg "red")
 higher order functions FTW!
 
 ## Usage ##
+WARNING: very early beta code - API is subject to change.
 
 After including jquery, include fatquery.js
 
 ```
-<script type="text/javascript" src="jquery-1.6.4.min.js"></script>
-<script type="text/javascript" src="fatquery.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+<script type="text/javascript" src="https://raw.github.com/kasperlanger/fatQuery/master/fatquery.js"></script>
 ```
+
 ## Provided functions so far ##
 
 $bind, $toggle, $blur, $focus, $focusin, $focusout, $load, $resize, $scroll, 
