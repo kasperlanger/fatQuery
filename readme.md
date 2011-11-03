@@ -37,14 +37,20 @@ Toggling between different colors
 
 ```coffeescript
 $.fn.bg = (color) -> @css "background-color": color
-$("#foo").$toggle (-> @bg "blue"), (-> @bg "white"), (-> @bg "red")
+$("#foo").$toggle(
+ -> @bg "blue"
+ -> @bg "white"
+ -> @bg "red")
 ```
 
 or even
 
 ```coffeescript
 bg = (c) -> -> @css "background-color": c
-$("#foo").$toggle (bg "blue"), (bg "white"), (bg "red")
+$("#foo").$toggle(
+  bg "blue"
+  bg "white"
+  bg "red")
 ```
 
 higher order functions FTW!
@@ -66,4 +72,3 @@ $unload, $click, $dblclick, $mousedown, $mouseup, $mousemove, $mouseover,
 $mouseout, $mouseenter, $mouseleave, $change, $select, $submit, $keydown,
 $keypress, $keyup, $error
 
-2011 Copyright Kasper Langer
